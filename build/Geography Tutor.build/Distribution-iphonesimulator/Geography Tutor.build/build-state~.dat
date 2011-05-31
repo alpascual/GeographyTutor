@@ -1,0 +1,842 @@
+TGeography Tutor
+v7
+r0
+t315031713.742858
+cCheck dependencies
+cProcessInfoPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Info.plist" Geography_Tutor-Info.plist
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib"
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/TN_09-10_S_22A.jpg" Shared/Images/TN_09-10_S_22A.jpg
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/Default.png" Default.png
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib"
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/backDrop.jpg" Shared/Images/backDrop.jpg
+cCopyPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography_Tutor-Info.plist" Geography_Tutor-Info.plist
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib"
+cCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib"
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes1.wav" Shared/Sounds/yes1.wav
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no1.wav" Shared/Sounds/no1.wav
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no2.wav" Shared/Sounds/no2.wav
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes2.wav" Shared/Sounds/yes2.wav
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes3.wav" Shared/Sounds/yes3.wav
+cCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no3.wav" Shared/Sounds/no3.wav
+cProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch.gch Geography_Tutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/main.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPhone.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPad.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPadMap.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MyAnnotation.o" "/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/StateList.o" "/Users/alpascual/Pet Projects/Geography Tutor/StateList.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MapUtils.o" "/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SettingsController.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SoundManager.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPhoneMap.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/ResultsManager.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/CongratulationsController.o" "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor" normal i386
+cGenerateDSYMFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app.dSYM" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor"
+cTouch "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.h
+c000000004D13DA030000000000000121
+t1293146627
+s289
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m
+c000000004D13DA3F0000000000000621
+t1293146687
+s1569
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib
+c000000004D13D9DC00000000000044FA
+t1293146588
+s17658
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Default.png
+c000000004D118EF8000000000000EC48
+t1292996344
+s60488
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor-Info.plist
+c000000004D1235780000000000000574
+t1293038968
+s1396
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor_Prefix.pch
+c000000004D10E52F00000000000000C7
+t1292952879
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.h
+c000000004D11888C0000000000000205
+t1292994700
+s517
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i"StateList.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m
+c000000004D13DDBD00000000000008D7
+t1293147581
+s2263
+i"MapUtils.h"
+i"MyAnnotation.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.h
+c000000004D118A3800000000000001D8
+t1292995128
+s472
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m
+c000000004D112C1F000000000000020E
+t1292971039
+s526
+i"MyAnnotation.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/TN_09-10_S_22A.jpg
+c000000004D118D40000000000000A531
+t1292995904
+s42289
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/backDrop.jpg
+c000000004D1191C3000000000000C35E
+t1292997059
+s50014
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.h
+c000000004D1384FA000000000000014E
+t1293124858
+s334
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m
+c000000004D1385100000000000000400
+t1293124880
+s1024
+i"ResultsManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.h
+c000000004D12921F0000000000000288
+t1293062687
+s648
+i<UIKit/UIKit.h>
+i"iPadMap.h"
+i"iPhoneMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m
+c000000004D129634000000000000094C
+t1293063732
+s2380
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib
+c000000004D1286BF00000000000060E1
+t1293059775
+s24801
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.h
+c000000004D16C3760000000000000187
+t1293337462
+s391
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m
+c000000004D16C8FE0000000000000550
+t1293338878
+s1360
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no1.wav
+c000000004D16C04B00000000000C002C
+t1293336651
+s786476
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no2.wav
+c000000004D16C03E000000000008002C
+t1293336638
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no3.wav
+c000000004D16C1B3000000000008002C
+t1293337011
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes1.wav
+c000000004D16B6FD00000000000D7EAC
+t1293334269
+s884396
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes2.wav
+c000000004D16BDB1000000000008002C
+t1293335985
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes3.wav
+c000000004D16BDD9000000000008002C
+t1293336025
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m
+c000000004D10E52F0000000000000170
+t1292952879
+s368
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/StateList.h
+c000000004D114EFE0000000000000144
+t1292979966
+s324
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/StateList.m
+c000000004D1152150000000000000B2C
+t1292980757
+s2860
+i"StateList.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app
+t1293338913
+s714
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app.dSYM
+t1293338913
+s102
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/CongratulationsController.nib
+t1293338911
+s1346
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Default.png
+t1293338910
+s60488
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor
+t1293338913
+s56436
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography_Tutor-Info.plist
+t1293338911
+s816
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Info.plist
+t1293338908
+s980
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/MainWindow_iPad.nib
+t1293338910
+s1106
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/MainWindow_iPhone.nib
+t1293338910
+s1108
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/PkgInfo
+t1293338908
+s8
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/SettingsController.nib
+t1293338911
+s2244
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/TN_09-10_S_22A.jpg
+t1293338910
+s42289
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/backDrop.jpg
+t1293338911
+s50014
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/iPadMap.nib
+t1293338911
+s2328
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/iPhoneMap.nib
+t1293338911
+s2162
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/no1.wav
+t1293338911
+s786476
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/no2.wav
+t1293338911
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/no3.wav
+t1293338911
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/yes1.wav
+t1293338911
+s884396
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/yes2.wav
+t1293338911
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/yes3.wav
+t1293338911
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPad.o
+t1293338912
+s53224
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+t1293338912
+s53140
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/CongratulationsController.o
+t1293338913
+s38272
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/Geography Tutor.LinkFileList
+c000000004D16C91C0000000000000788
+t1293338908
+s1928
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MapUtils.o
+t1293338913
+s43848
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MyAnnotation.o
+t1293338913
+s11624
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/ResultsManager.o
+t1293338913
+s43548
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SettingsController.o
+t1293338913
+s49332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SoundManager.o
+t1293338913
+s9340
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/StateList.o
+t1293338913
+s14336
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPadMap.o
+t1293338913
+s59720
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPhoneMap.o
+t1293338913
+s59760
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/main.o
+t1293338912
+s6316
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.h
+c000000004D128499000000000000025F
+t1293059225
+s607
+i<UIKit/UIKit.h>
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m
+c000000004D1284B2000000000000070F
+t1293059250
+s1807
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib
+c000000004D12864F0000000000005886
+t1293059663
+s22662
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.h
+c000000004D13DBEF00000000000004E1
+t1293147119
+s1249
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"MyAnnotation.h"
+i"StateList.h"
+i"MapUtils.h"
+i"SoundManager.h"
+i"ResultsManager.h"
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m
+c000000004D16C7BD000000000000128C
+t1293338557
+s4748
+i"iPadMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib
+c000000004D1268DF000000000000660F
+t1293052127
+s26127
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.h
+c000000004D129105000000000000024A
+t1293062405
+s586
+i<UIKit/UIKit.h>
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m
+c000000004D1291070000000000000A06
+t1293062407
+s2566
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib
+c000000004D12912B0000000000005A7D
+t1293062443
+s23165
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.h
+c000000004D13DBF300000000000004E2
+t1293147123
+s1250
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"MyAnnotation.h"
+i"StateList.h"
+i"MapUtils.h"
+i"SoundManager.h"
+i"ResultsManager.h"
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m
+c000000004D13E20A00000000000012C1
+t1293148682
+s4801
+i"iPhoneMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib
+c000000004D1296820000000000006578
+t1293063810
+s25976
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch.gch
+t1293082543
+s15113424
+
+NGeography_Tutor-Info.plist
+c000000004D1235780000000000000574
+t1293038968
+s1396
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315031708#315031708#0(122"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'Geography_Tutor-Info.plist'.1(22@115"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'Geography_Tutor-Info.plist'.315031708#18446744073709551615#0#0(1@0"0(0#1#0"8605880064#0"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPad.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031712.814140
+e315031712.969446
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPad.o
+x/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m315031712#315031712#0(0"0(0#0#69"/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m8613354048#2306"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPad.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPhone.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031712.021936
+e315031712.932483
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+x/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m:84: warning: property 'settingsController' requires method '-settingsController' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m:84: warning: property 'settingsController' requires the method 'setSettingsController:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@81"Compile /Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m315031712#315031712#0(471"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m:84: warning: property 'settingsController' requires method '-settingsController' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m:84: warning: property 'settingsController' requires the method 'setSettingsController:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@144"Property 'settingsController' requires method '-settingsController' to be defined - use @synthesize, @dynamic or provide a method implementation315031712#0#232#0(6@73"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m314755207#84#0#84#0#0"0(22@151"Property 'settingsController' requires the method 'setSettingsController:' to be defined - use @synthesize, @dynamic or provide a method implementation315031712#232#239#0(6@73"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m314755207#84#0#84#0#0"0(0#0#73"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m8612436352#2312"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/AppDelegate_iPhone.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/CongratulationsController.o" "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.469099
+e315031713.551885
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/CongratulationsController.o
+x/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m315031713#315031713#0(0"0(0#0#73"/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m8606600288#2319"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/CongratulationsController.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MapUtils.o" "/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.161833
+e315031713.279399
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MapUtils.o
+x/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m: In function '-[MapUtils addressLocation:]':
+o/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m:69: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+lSLF07#2@64"Compile /Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m315031713#315031713#0(381"/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m: In function '-[MapUtils addressLocation:]':/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m:69: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)1(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)315031713#102#279#0(6@56"/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m314840381#69#0#69#0#33"'*' is deprecated (declared at *)0(0#0#56"/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m8603067680#2285"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MapUtils.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MyAnnotation.o" "/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031712.969543
+e315031713.046404
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MyAnnotation.o
+x/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m315031712#315031713#0(0"0(0#0#60"/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m8608281984#2293"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/MyAnnotation.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/ResultsManager.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.384026
+e315031713.469005
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/ResultsManager.o
+x/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m315031713#315031713#0(0"0(0#0#69"/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m8606496128#2304"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/ResultsManager.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SettingsController.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.207767
+e315031713.383929
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SettingsController.o
+x/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m315031713#315031713#0(0"0(0#0#73"/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m8603086848#2312"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SettingsController.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SoundManager.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.279493
+e315031713.354991
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SoundManager.o
+x/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m315031713#315031713#0(0"0(0#0#67"/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m8601052000#2300"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/SoundManager.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/StateList.o" "/Users/alpascual/Pet Projects/Geography Tutor/StateList.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.046502
+e315031713.161735
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/StateList.o
+x/Users/alpascual/Pet Projects/Geography Tutor/StateList.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alpascual/Pet Projects/Geography Tutor/StateList.m315031713#315031713#0(0"0(0#0#57"/Users/alpascual/Pet Projects/Geography Tutor/StateList.m8603828352#2287"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/StateList.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/StateList.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPadMap.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031712.932586
+e315031713.207667
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPadMap.o
+x/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m: In function '-[iPadMap mapView:didAddAnnotationViews:]':
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:91: warning: incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: 'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: (Messages without a matching method signature
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: will be assumed to return 'id' and accept
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: '...' as arguments.)
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m: At top level:
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:173: warning: property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:173: warning: property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@68"Compile /Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031712#315031713#0(1254"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m: In function '-[iPadMap mapView:didAddAnnotationViews:]':/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:91: warning: incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: 'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: (Messages without a matching method signature/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: will be assumed to return 'id' and accept/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:95: warning: '...' as arguments.)/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m: At top level:/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:173: warning: property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m:173: warning: property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@96"Incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'315031713#119#171#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#91#0#91#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@79"'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'315031713#290#154#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#95#0#95#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)315031713#444#120#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#95#0#95#0#0"0(23@13"At top level:315031713#775#76#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#0#0#0#0#0"0(22@122"Property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation315031713#851#198#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#173#0#173#0#0"0(22@129"Property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation315031713#1049#205#0(6@60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m315031357#173#0#173#0#0"0(0#0#60"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m8613932256#2288"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPadMap.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPhoneMap.o" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031713.355092
+e315031713.635441
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPhoneMap.o
+x/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m: In function '-[iPhoneMap mapView:didAddAnnotationViews:]':
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:88: warning: incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: 'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: (Messages without a matching method signature
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: will be assumed to return 'id' and accept
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: '...' as arguments.)
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m: At top level:
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:167: warning: property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:167: warning: property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@72"Compile /Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m315031713#315031713#0(1292"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m: In function '-[iPhoneMap mapView:didAddAnnotationViews:]':/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:88: warning: incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: 'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: (Messages without a matching method signature/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: will be assumed to return 'id' and accept/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:92: warning: '...' as arguments.)/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m: At top level:/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:167: warning: property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m:167: warning: property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@96"Incompatible Objective-C types initializing 'struct MyAnnotation *', expected 'struct NSArray *'315031713#125#175#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#88#0#88#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@79"'MyAnnotation' may not respond to '-countByEnumeratingWithState:objects:count:'315031713#300#158#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#92#0#92#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)315031713#458#124#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#92#0#92#0#0"0(23@13"At top level:315031713#801#80#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#0#0#0#0#0"0(22@122"Property 'toolbar' requires method '-toolbar' to be defined - use @synthesize, @dynamic or provide a method implementation315031713#881#202#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#167#0#167#0#0"0(22@129"Property 'toolbar' requires the method 'setToolbar:' to be defined - use @synthesize, @dynamic or provide a method implementation315031713#1083#209#0(6@64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m314841482#167#0#167#0#0"0(0#0#64"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m8612977664#2294"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/iPhoneMap.o"0#
+
+CCompileC "build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/main.o" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s315031712.020454
+e315031712.813942
+r1
+xCompileC
+xbuild/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/main.o
+x/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m315031712#315031712#0(0"0(0#0#59"/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m8613412960#2284"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-generated-files.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-own-target-headers.hmap" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-all-target-headers.hmap" -iquote "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Geography Tutor-project-headers.hmap" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/include" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources/i386" "-I/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch -c "/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib"
+s315031711.432937
+e315031711.896748
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib
+lSLF07#2@40"CompileXIB CongratulationsController.xib315031711#315031711#0(0"0(0#0#75"/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib8605725856#642"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/CongratulationsController.nib" "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib"
+s315031710.581032
+e315031711.157093
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib
+lSLF07#2@40"CompileXIB Shared/SettingsController.xib315031710#315031711#0(0"0(0#0#75"/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib8613895840#635"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/SettingsController.nib" "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib"
+s315031708.753003
+e315031710.578562
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib315031708#315031710#0(0"0(0#0#70"/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib8606338560#627"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/MainWindow_iPad.nib" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib"
+s315031710.578663
+e315031711.176714
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib
+lSLF07#2@27"CompileXIB iPad/iPadMap.xib315031710#315031711#0(0"0(0#0#62"/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib8614918976#611"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/iPadMap.nib" "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib"
+s315031708.752367
+e315031710.578303
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib315031708#315031710#0(0"0(0#0#74"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib8606419968#633"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/MainWindow_iPhone.nib" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib"
+s315031711.208671
+e315031711.703016
+r1
+xCompileXIB
+x/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib
+lSLF07#2@31"CompileXIB iPhone/iPhoneMap.xib315031711#315031711#0(0"0(0#0#66"/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib8606295840#617"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/iPhoneMap.nib" "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography_Tutor-Info.plist" Geography_Tutor-Info.plist
+s315031711.158731
+e315031711.432841
+r1
+xCopyPlistFile
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography_Tutor-Info.plist
+xGeography_Tutor-Info.plist
+lSLF07#2@31"Copy Geography_Tutor-Info.plist315031711#315031711#0(0"0(0#0#72"/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor-Info.plist8608291136#434"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Geography_Tutor-Info.plist --outdir "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/Default.png" Default.png
+s315031710.580296
+e315031710.683088
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png315031710#315031710#0(0"0(0#0#57"/Users/alpascual/Pet Projects/Geography Tutor/Default.png8614221472#532"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Default.png" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/TN_09-10_S_22A.jpg" Shared/Images/TN_09-10_S_22A.jpg
+s315031710.579497
+e315031710.682625
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/TN_09-10_S_22A.jpg
+xShared/Images/TN_09-10_S_22A.jpg
+lSLF07#2@37"Copy Shared/Images/TN_09-10_S_22A.jpg315031710#315031710#0(0"0(0#0#78"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/TN_09-10_S_22A.jpg8614545600#553"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/TN_09-10_S_22A.jpg" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/backDrop.jpg" Shared/Images/backDrop.jpg
+s315031711.157185
+e315031711.208442
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/backDrop.jpg
+xShared/Images/backDrop.jpg
+lSLF07#2@31"Copy Shared/Images/backDrop.jpg315031711#315031711#0(0"0(0#0#72"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/backDrop.jpg8612984000#547"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/backDrop.jpg" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no1.wav" Shared/Sounds/no1.wav
+s315031711.703795
+e315031711.998334
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/no1.wav
+xShared/Sounds/no1.wav
+lSLF07#2@26"Copy Shared/Sounds/no1.wav315031711#315031711#0(0"0(0#0#67"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no1.wav8604206304#542"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no1.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no2.wav" Shared/Sounds/no2.wav
+s315031711.704343
+e315031711.986294
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/no2.wav
+xShared/Sounds/no2.wav
+lSLF07#2@26"Copy Shared/Sounds/no2.wav315031711#315031711#0(0"0(0#0#67"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no2.wav8613255968#542"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no2.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/no3.wav" Shared/Sounds/no3.wav
+s315031711.705926
+e315031711.984178
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/no3.wav
+xShared/Sounds/no3.wav
+lSLF07#2@26"Copy Shared/Sounds/no3.wav315031711#315031711#0(0"0(0#0#67"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no3.wav8612871040#542"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no3.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes1.wav" Shared/Sounds/yes1.wav
+s315031711.703108
+e315031712.019983
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/yes1.wav
+xShared/Sounds/yes1.wav
+lSLF07#2@27"Copy Shared/Sounds/yes1.wav315031711#315031712#0(0"0(0#0#68"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes1.wav8604319616#543"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes1.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes2.wav" Shared/Sounds/yes2.wav
+s315031711.704877
+e315031711.991936
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/yes2.wav
+xShared/Sounds/yes2.wav
+lSLF07#2@27"Copy Shared/Sounds/yes2.wav315031711#315031711#0(0"0(0#0#68"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes2.wav8612995392#543"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes2.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CCpResource "build/Distribution-iphonesimulator/Geography Tutor.app/yes3.wav" Shared/Sounds/yes3.wav
+s315031711.705401
+e315031711.986580
+r1
+xCpResource
+xbuild/Distribution-iphonesimulator/Geography Tutor.app/yes3.wav
+xShared/Sounds/yes3.wav
+lSLF07#2@27"Copy Shared/Sounds/yes3.wav315031711#315031711#0(0"0(0#0#68"/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes3.wav8612947648#543"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes3.wav" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app.dSYM" "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor"
+s315031713.709675
+e315031713.739540
+r1
+xGenerateDSYMFile
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app.dSYM
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor
+lSLF07#2@151"GenerateDSYMFile "build/Distribution-iphonesimulator/Geography Tutor.app.dSYM" "build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor"315031713#315031713#0(0"0(0#0#116"/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor8603475296#448"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor" -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app.dSYM"0#
+
+CLd "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor" normal i386
+s315031713.635562
+e315031713.709556
+r1
+xLd
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor
+xnormal
+xi386
+lSLF07#2@121"Link /Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor315031713#315031713#0(0"0(0#0#0"8612668032#1055"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" "-F/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator" -filelist "/Users/alpascual/Pet Projects/Geography Tutor/build/Geography Tutor.build/Distribution-iphonesimulator/Geography Tutor.build/Objects-normal/i386/Geography Tutor.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework AudioToolbox -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Geography Tutor"0#
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Info.plist" Geography_Tutor-Info.plist
+s315031708.716696
+e315031708.752284
+r1
+xProcessInfoPlistFile
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Info.plist
+xGeography_Tutor-Info.plist
+lSLF07#2@34"Process Geography_Tutor-Info.plist315031708#315031708#0(0"0(0#0#72"/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor-Info.plist8608289696#544"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Geography_Tutor-Info.plist -genpkginfo "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app/Info.plist"0#
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-dquanyixfbioyidzoqqairjdljxd/Geography_Tutor_Prefix.pch.gch Geography_Tutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"
+s315031713.739624
+e315031713.742818
+r1
+xTouch
+x/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app
+lSLF07#2@106"Touch /Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app315031713#315031713#0(0"0(0#0#0"8605826208#311"    cd "/Users/alpascual/Pet Projects/Geography Tutor"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/alpascual/Pet Projects/Geography Tutor/build/Distribution-iphonesimulator/Geography Tutor.app"0#
+

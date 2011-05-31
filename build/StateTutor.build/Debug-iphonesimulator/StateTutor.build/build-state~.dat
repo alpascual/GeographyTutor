@@ -1,0 +1,1281 @@
+TStateTutor
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC1222F0000000000010AAC
+t1287725615
+s68268
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.h
+c000000004D2550280000000000000252
+t1294290984
+s594
+i<UIKit/UIKit.h>
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m
+c000000004D25500B0000000000000A23
+t1294290955
+s2595
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib
+c000000004D1BC3A90000000000005951
+t1293665193
+s22865
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor-Info.plist
+c000000004D226A510000000000000571
+t1294101073
+s1393
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Geography_Tutor_Prefix.pch
+c000000004D10E52F00000000000000C7
+t1292952879
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.h
+c000000004D25461E000000000000030F
+t1294288414
+s783
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i"StateList.h"
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m
+c000000004D254C750000000000000D0E
+t1294290037
+s3342
+i"MapUtils.h"
+i"MyAnnotation.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.h
+c000000004D118A3800000000000001D8
+t1292995128
+s472
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m
+c000000004D112C1F000000000000020E
+t1292971039
+s526
+i"MyAnnotation.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/PleaseWait.gif
+c000000004D1F8A66000000000001FDEA
+t1293912678
+s130538
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/TN_09-10_S_22A.jpg
+c000000004D118D40000000000000A531
+t1292995904
+s42289
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/backDrop.jpg
+c000000004D1191C3000000000000C35E
+t1292997059
+s50014
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/default.png
+c000000004D2269310000000000015B91
+t1294100785
+s88977
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Images/star.jpg
+c000000004D1BB4900000000000000A75
+t1293661328
+s2677
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.h
+c000000004D1384FA000000000000014E
+t1293124858
+s334
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m
+c000000004D1BC7F30000000000000422
+t1293666291
+s1058
+i"ResultsManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.h
+c000000004D12921F0000000000000288
+t1293062687
+s648
+i<UIKit/UIKit.h>
+i"iPadMap.h"
+i"iPhoneMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m
+c000000004D254C430000000000000A21
+t1294289987
+s2593
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib
+c000000004D2269E8000000000000687A
+t1294100968
+s26746
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.h
+c000000004D1F89CB00000000000002CD
+t1293912523
+s717
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m
+c000000004D25523A0000000000000C9E
+t1294291514
+s3230
+i"SoundManager.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/alabama.wav
+c000000004D1C049F000000000004E698
+t1293681823
+s321176
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/alaska.wav
+c000000004D1C04CC0000000000060370
+t1293681868
+s394096
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/arizona.wav
+c000000004D1C04EE00000000000559DC
+t1293681902
+s350684
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/arkansas.wav
+c000000004D1C05120000000000055048
+t1293681938
+s348232
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/california.wav
+c000000004D1C054600000000000656B4
+t1293681990
+s415412
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/canyoufind.wav
+c000000004D1C06E8000000000003B82C
+t1293682408
+s243756
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/colorado.wav
+c000000004D1C056E0000000000068D20
+t1293682030
+s429344
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/congratulations.wav
+c000000004D1F6B10000000000006102C
+t1293904656
+s397356
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/connecticut.wav
+c000000004D1C05AD00000000000649F8
+t1293682093
+s412152
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/delaware.wav
+c000000004D1C05D3000000000003182C
+t1293682131
+s202796
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/districtofcolombia.wav
+c000000004D1C0619000000000003582C
+t1293682201
+s219180
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/florida.wav
+c000000004D1C0640000000000002A02C
+t1293682240
+s172076
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/georgia.wav
+c000000004D1C0661000000000001302C
+t1293682273
+s77868
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/hawaii.wav
+c000000004D1C0685000000000001C02C
+t1293682309
+s114732
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/idaho.wav
+c000000004D1C06BA000000000001E02C
+t1293682362
+s122924
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/illinois.wav
+c000000004D1C072C000000000002782C
+t1293682476
+s161836
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/indiana.wav
+c000000004D1C0772000000000002182C
+t1293682546
+s137260
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/iowa.wav
+c000000004D1C079B000000000002C82C
+t1293682587
+s182316
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/kansas.wav
+c000000004D1C07C6000000000002102C
+t1293682630
+s135212
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/kentucky.wav
+c000000004D1C0818000000000003582C
+t1293682712
+s219180
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/louisiana.wav
+c000000004D1C085F000000000001D82C
+t1293682783
+s120876
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/maine.wav
+c000000004D1C0883000000000001C82C
+t1293682819
+s116780
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/maryland.wav
+c000000004D1C08AB000000000003902C
+t1293682859
+s233516
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/massachusetts.wav
+c000000004D1C08DF000000000003F82C
+t1293682911
+s260140
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/michigan.wav
+c000000004D1C0903000000000001D82C
+t1293682947
+s120876
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/minnesota.wav
+c000000004D1C0940000000000002902C
+t1293683008
+s167980
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/mississippi.wav
+c000000004D1C097C000000000002982C
+t1293683068
+s170028
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/missouri.wav
+c000000004D1C09BD000000000002702C
+t1293683133
+s159788
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/montana.wav
+c000000004D1C09E5000000000003082C
+t1293683173
+s198700
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/nebraska.wav
+c000000004D1C0A18000000000003382C
+t1293683224
+s210988
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/nevada.wav
+c000000004D1C0A43000000000002E82C
+t1293683267
+s190508
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/newhampshire.wav
+c000000004D1C0A67000000000003902C
+t1293683303
+s233516
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/newjersey.wav
+c000000004D1C0A8B000000000002A82C
+t1293683339
+s174124
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/newmexico.wav
+c000000004D1C0AE4000000000004D82C
+t1293683428
+s317484
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/newyork.wav
+c000000004D1C0B05000000000004502C
+t1293683461
+s282668
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no0.wav
+c000000004D1D63B9000000000003102C
+t1293771705
+s200748
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no1.wav
+c000000004D16C04B00000000000C002C
+t1293336651
+s786476
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no2.wav
+c000000004D16C03E000000000008002C
+t1293336638
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no3.wav
+c000000004D16C1B3000000000008002C
+t1293337011
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no4.wav
+c000000004D1D63CE000000000004282C
+t1293771726
+s272428
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/no5.wav
+c000000004D1D63E4000000000003782C
+t1293771748
+s227372
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/northcarolina.wav
+c000000004D1C0B23000000000004202C
+t1293683491
+s270380
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/northdakota.wav
+c000000004D1C0B4B000000000007502C
+t1293683531
+s479276
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/ohio.wav
+c000000004D1C0B66000000000002982C
+t1293683558
+s170028
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/oklahoma.wav
+c000000004D1C0B82000000000003202C
+t1293683586
+s204844
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/oregon.wav
+c000000004D1C0BA4000000000002982C
+t1293683620
+s170028
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/pennsylvania.wav
+c000000004D1C0BD7000000000004D02C
+t1293683671
+s315436
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/rhodeisland.wav
+c000000004D1C0C20000000000004682C
+t1293683744
+s288812
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/southcarolina.wav
+c000000004D1C0C3C000000000003A82C
+t1293683772
+s239660
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/southdakota.wav
+c000000004D1C0C62000000000004A02C
+t1293683810
+s303148
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/tennessee.wav
+c000000004D1C0C7C000000000002A82C
+t1293683836
+s174124
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/texas.wav
+c000000004D1C0C93000000000003502C
+t1293683859
+s217132
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/utah.wav
+c000000004D1C0CBF000000000002082C
+t1293683903
+s133164
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/vermont.wav
+c000000004D1C0CE9000000000002782C
+t1293683945
+s161836
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/virginia.wav
+c000000004D1C0D06000000000003302C
+t1293683974
+s208940
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/westvirginia.wav
+c000000004D1C0D36000000000003D82C
+t1293684022
+s251948
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/wisconsin.wav
+c000000004D1C0D6C000000000005D82C
+t1293684076
+s383020
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/wyoming.wav
+c000000004D1C0D86000000000005A82C
+t1293684102
+s370732
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes0.wav
+c000000004D1D6332000000000002282C
+t1293771570
+s141356
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes1.wav
+c000000004D1F8C530000000000024FEC
+t1293913171
+s151532
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes2.wav
+c000000004D16BDB1000000000008002C
+t1293335985
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes3.wav
+c000000004D16BDD9000000000008002C
+t1293336025
+s524332
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes4.wav
+c000000004D1D635E000000000003082C
+t1293771614
+s198700
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/Sounds/yes5.wav
+c000000004D1D6378000000000002582C
+t1293771640
+s153644
+
+N/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m
+c000000004D10E52F0000000000000170
+t1292952879
+s368
+i<UIKit/UIKit.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/StateList.h
+c000000004D114EFE0000000000000144
+t1292979966
+s324
+i<Foundation/Foundation.h>
+
+N/Users/alpascual/Pet Projects/Geography Tutor/StateList.m
+c000000004D1C0D110000000000000B34
+t1293683985
+s2868
+i"StateList.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app.dSYM
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/CongratulationsController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/Geography_Tutor-Info.plist
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/Info.plist
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/MainWindow_iPad.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/MainWindow_iPhone.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/PkgInfo
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/PleaseWait.gif
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/SettingsController.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/StateTutor
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/TN_09-10_S_22A.jpg
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/alabama.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/alaska.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/arizona.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/arkansas.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/backDrop.jpg
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/california.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/canyoufind.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/colorado.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/congratulations.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/connecticut.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/default.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/delaware.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/districtofcolombia.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/florida.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/georgia.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/hawaii.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/iPadMap.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/iPhoneMap.nib
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/icon.png
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/idaho.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/illinois.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/indiana.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/iowa.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/kansas.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/kentucky.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/louisiana.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/maine.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/maryland.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/massachusetts.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/michigan.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/minnesota.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/mississippi.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/missouri.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/montana.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/nebraska.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/nevada.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/newhampshire.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/newjersey.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/newmexico.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/newyork.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no0.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no1.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no2.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no3.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no4.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/no5.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/northcarolina.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/northdakota.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/ohio.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/oklahoma.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/oregon.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/pennsylvania.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/rhodeisland.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/southcarolina.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/southdakota.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/star.jpg
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/tennessee.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/texas.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/utah.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/vermont.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/virginia.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/westvirginia.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/wisconsin.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/wyoming.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes0.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes1.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes2.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes3.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes4.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/yes5.wav
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/AppDelegate_iPad.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/AppDelegate_iPhone.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/CongratulationsController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/MapUtils.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/MyAnnotation.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/ResultsManager.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/SettingsController.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/SoundManager.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/StateList.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/StateTutor.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/iPadMap.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/iPhoneMap.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.h
+c000000004D128499000000000000025F
+t1293059225
+s607
+i<UIKit/UIKit.h>
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m
+c000000004D1284B2000000000000070F
+t1293059250
+s1807
+i"AppDelegate_iPad.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib
+c000000004D12864F0000000000005886
+t1293059663
+s22662
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.h
+c000000004D2267E30000000000000624
+t1294100451
+s1572
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"MyAnnotation.h"
+i"StateList.h"
+i"MapUtils.h"
+i"SoundManager.h"
+i"ResultsManager.h"
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m
+c000000004D25536C00000000000019AF
+t1294291820
+s6575
+i"iPadMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib
+c000000004D2553CD0000000000006FE8
+t1294291917
+s28648
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.h
+c000000004D129105000000000000024A
+t1293062405
+s586
+i<UIKit/UIKit.h>
+i"SettingsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m
+c000000004D1291070000000000000A06
+t1293062407
+s2566
+i"AppDelegate_iPhone.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib
+c000000004D12912B0000000000005A7D
+t1293062443
+s23165
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.h
+c000000004D254BA50000000000000638
+t1294289829
+s1592
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+i"MyAnnotation.h"
+i"StateList.h"
+i"MapUtils.h"
+i"SoundManager.h"
+i"ResultsManager.h"
+i"CongratulationsController.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m
+c000000004D2553610000000000001D7F
+t1294291809
+s7551
+i"iPhoneMap.h"
+
+N/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib
+c000000004D2553AF000000000000744B
+t1294291887
+s29771
+
+N/Users/alpascual/Pet Projects/Geography Tutor/icon.png
+c000000004D2270560000000000041E07
+t1294102614
+s269831
+
+N/var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-eueyqzywvezzpxdmbyqyfeaauvpc/Geography_Tutor_Prefix.pch.gch
+t1293598615
+s15453392
+
+NGeography_Tutor-Info.plist
+c000000004D226A510000000000000571
+t1294101073
+s1393
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/AppDelegate_iPad.o "/Users/alpascual/Pet Projects/Geography Tutor/iPad/AppDelegate_iPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/AppDelegate_iPhone.o "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/AppDelegate_iPhone.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/CongratulationsController.o "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/MapUtils.o "/Users/alpascual/Pet Projects/Geography Tutor/MapUtils.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/MyAnnotation.o "/Users/alpascual/Pet Projects/Geography Tutor/MyAnnotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/ResultsManager.o "/Users/alpascual/Pet Projects/Geography Tutor/Shared/ResultsManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/SettingsController.o "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/SoundManager.o "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SoundManager.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/StateList.o "/Users/alpascual/Pet Projects/Geography Tutor/StateList.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/iPadMap.o "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/iPhoneMap.o "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/StateTutor.build/Debug-iphonesimulator/StateTutor.build/Objects-normal/i386/main.o "/Users/alpascual/Pet Projects/Geography Tutor/Shared/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/CongratulationsController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/Shared/SettingsController.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/MainWindow_iPad.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPad/iPadMap.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/MainWindow_iPhone.xib"
+r0
+
+CCompileXIB "/Users/alpascual/Pet Projects/Geography Tutor/iPhone/iPhoneMap.xib"
+r0
+
+CCopyPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/Geography_Tutor-Info.plist" Geography_Tutor-Info.plist
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/PleaseWait.gif Shared/Images/PleaseWait.gif
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/TN_09-10_S_22A.jpg Shared/Images/TN_09-10_S_22A.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/alabama.wav Shared/Sounds/alabama.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/alaska.wav Shared/Sounds/alaska.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/arizona.wav Shared/Sounds/arizona.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/arkansas.wav Shared/Sounds/arkansas.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/backDrop.jpg Shared/Images/backDrop.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/california.wav Shared/Sounds/california.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/canyoufind.wav Shared/Sounds/canyoufind.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/colorado.wav Shared/Sounds/colorado.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/congratulations.wav Shared/Sounds/congratulations.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/connecticut.wav Shared/Sounds/connecticut.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/default.png Shared/Images/default.png
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/delaware.wav Shared/Sounds/delaware.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/districtofcolombia.wav Shared/Sounds/districtofcolombia.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/florida.wav Shared/Sounds/florida.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/georgia.wav Shared/Sounds/georgia.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/hawaii.wav Shared/Sounds/hawaii.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/icon.png icon.png
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/idaho.wav Shared/Sounds/idaho.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/illinois.wav Shared/Sounds/illinois.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/indiana.wav Shared/Sounds/indiana.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/iowa.wav Shared/Sounds/iowa.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/kansas.wav Shared/Sounds/kansas.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/kentucky.wav Shared/Sounds/kentucky.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/louisiana.wav Shared/Sounds/louisiana.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/maine.wav Shared/Sounds/maine.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/maryland.wav Shared/Sounds/maryland.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/massachusetts.wav Shared/Sounds/massachusetts.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/michigan.wav Shared/Sounds/michigan.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/minnesota.wav Shared/Sounds/minnesota.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/mississippi.wav Shared/Sounds/mississippi.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/missouri.wav Shared/Sounds/missouri.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/montana.wav Shared/Sounds/montana.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/nebraska.wav Shared/Sounds/nebraska.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/nevada.wav Shared/Sounds/nevada.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/newhampshire.wav Shared/Sounds/newhampshire.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/newjersey.wav Shared/Sounds/newjersey.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/newmexico.wav Shared/Sounds/newmexico.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/newyork.wav Shared/Sounds/newyork.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no0.wav Shared/Sounds/no0.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no1.wav Shared/Sounds/no1.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no2.wav Shared/Sounds/no2.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no3.wav Shared/Sounds/no3.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no4.wav Shared/Sounds/no4.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/no5.wav Shared/Sounds/no5.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/northcarolina.wav Shared/Sounds/northcarolina.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/northdakota.wav Shared/Sounds/northdakota.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/ohio.wav Shared/Sounds/ohio.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/oklahoma.wav Shared/Sounds/oklahoma.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/oregon.wav Shared/Sounds/oregon.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/pennsylvania.wav Shared/Sounds/pennsylvania.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/rhodeisland.wav Shared/Sounds/rhodeisland.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/southcarolina.wav Shared/Sounds/southcarolina.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/southdakota.wav Shared/Sounds/southdakota.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/star.jpg Shared/Images/star.jpg
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/tennessee.wav Shared/Sounds/tennessee.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/texas.wav Shared/Sounds/texas.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/utah.wav Shared/Sounds/utah.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/vermont.wav Shared/Sounds/vermont.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/virginia.wav Shared/Sounds/virginia.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/westvirginia.wav Shared/Sounds/westvirginia.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/wisconsin.wav Shared/Sounds/wisconsin.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/wyoming.wav Shared/Sounds/wyoming.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes0.wav Shared/Sounds/yes0.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes1.wav Shared/Sounds/yes1.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes2.wav Shared/Sounds/yes2.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes3.wav Shared/Sounds/yes3.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes4.wav Shared/Sounds/yes4.wav
+r0
+
+CCpResource build/Debug-iphonesimulator/StateTutor.app/yes5.wav Shared/Sounds/yes5.wav
+r0
+
+CGenerateDSYMFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app.dSYM" "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/StateTutor"
+r0
+
+CLd "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/StateTutor" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app/Info.plist" Geography_Tutor-Info.plist
+r0
+
+CProcessPCH /var/folders/B5/B59oVsA5GsGPQOqDbAJQpU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Geography_Tutor_Prefix-eueyqzywvezzpxdmbyqyfeaauvpc/Geography_Tutor_Prefix.pch.gch Geography_Tutor_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/alpascual/Pet Projects/Geography Tutor/build/Debug-iphonesimulator/StateTutor.app"
+r0
+

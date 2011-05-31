@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		76336E4012C1C4F0004ADE96 /* TN_09-10_S_22A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76336E3F12C1C4F0004ADE96 /* TN_09-10_S_22A.jpg */; };
+		76336E5F12C1C8D9004ADE96 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76336E5D12C1C8D9004ADE96 /* SettingsController.m */; };
+		76336E6012C1C8D9004ADE96 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76336E5E12C1C8D9004ADE96 /* SettingsController.xib */; };
+		76336E6312C1C95C004ADE96 /* backDrop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76336E6212C1C95C004ADE96 /* backDrop.jpg */; };
+		7637366B12D8DF840046C14E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7637366812D8DF840046C14E /* Icon-72.png */; };
+		7637366C12D8DF840046C14E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7637366912D8DF840046C14E /* Icon@2x.png */; };
+		763736AE12D906E70046C14E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7637366712D8DF840046C14E /* Icon.png */; };
+		764B4B2A12C6EF040043309F /* yes1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B2912C6EF040043309F /* yes1.wav */; };
+		764B4B4812C6F85D0043309F /* no1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B4412C6F85D0043309F /* no1.wav */; };
+		764B4B4912C6F85D0043309F /* no2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B4512C6F85D0043309F /* no2.wav */; };
+		764B4B4A12C6F85D0043309F /* yes2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B4612C6F85D0043309F /* yes2.wav */; };
+		764B4B4B12C6F85D0043309F /* yes3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B4712C6F85D0043309F /* yes3.wav */; };
+		764B4B4D12C6F9B20043309F /* no3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 764B4B4C12C6F9B20043309F /* no3.wav */; };
+		7688F7AC12CFA2BF00C2413F /* congratulations.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7688F7AB12CFA2BF00C2413F /* congratulations.wav */; };
+		7688F8C412CFC1FD00C2413F /* PleaseWait.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7688F8C312CFC1FD00C2413F /* PleaseWait.gif */; };
+		768FD58512D2A0D200582B6B /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 768FD58412D2A0D200582B6B /* default.png */; };
+		769050E012D2D7CB008136D2 /* yes5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9E0712CD9B9D000469D5 /* yes5.wav */; };
+		769DD4291336B181000A68FD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769DD4281336B181000A68FD /* iAd.framework */; };
+		76A40B8B12C1B98C005E7874 /* MapUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A40B8A12C1B98C005E7874 /* MapUtils.m */; };
+		76A6AB6B12CC45E30073DC72 /* alabama.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4912CC45E30073DC72 /* alabama.wav */; };
+		76A6AB6C12CC45E30073DC72 /* alaska.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4A12CC45E30073DC72 /* alaska.wav */; };
+		76A6AB6D12CC45E30073DC72 /* arizona.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4B12CC45E30073DC72 /* arizona.wav */; };
+		76A6AB6E12CC45E30073DC72 /* arkansas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4C12CC45E30073DC72 /* arkansas.wav */; };
+		76A6AB6F12CC45E30073DC72 /* california.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4D12CC45E30073DC72 /* california.wav */; };
+		76A6AB7012CC45E30073DC72 /* canyoufind.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4E12CC45E30073DC72 /* canyoufind.wav */; };
+		76A6AB7112CC45E30073DC72 /* colorado.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB4F12CC45E30073DC72 /* colorado.wav */; };
+		76A6AB7212CC45E30073DC72 /* connecticut.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5012CC45E30073DC72 /* connecticut.wav */; };
+		76A6AB7312CC45E30073DC72 /* delaware.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5112CC45E30073DC72 /* delaware.wav */; };
+		76A6AB7412CC45E30073DC72 /* districtofcolombia.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5212CC45E30073DC72 /* districtofcolombia.wav */; };
+		76A6AB7512CC45E30073DC72 /* florida.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5312CC45E30073DC72 /* florida.wav */; };
+		76A6AB7612CC45E30073DC72 /* georgia.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5412CC45E30073DC72 /* georgia.wav */; };
+		76A6AB7712CC45E30073DC72 /* hawaii.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5512CC45E30073DC72 /* hawaii.wav */; };
+		76A6AB7812CC45E30073DC72 /* idaho.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5612CC45E30073DC72 /* idaho.wav */; };
+		76A6AB7912CC45E30073DC72 /* illinois.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5712CC45E30073DC72 /* illinois.wav */; };
+		76A6AB7A12CC45E30073DC72 /* indiana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5812CC45E30073DC72 /* indiana.wav */; };
+		76A6AB7B12CC45E30073DC72 /* iowa.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5912CC45E30073DC72 /* iowa.wav */; };
+		76A6AB7C12CC45E30073DC72 /* kansas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5A12CC45E30073DC72 /* kansas.wav */; };
+		76A6AB7D12CC45E30073DC72 /* kentucky.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5B12CC45E30073DC72 /* kentucky.wav */; };
+		76A6AB7E12CC45E30073DC72 /* louisiana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5C12CC45E30073DC72 /* louisiana.wav */; };
+		76A6AB7F12CC45E30073DC72 /* maine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5D12CC45E30073DC72 /* maine.wav */; };
+		76A6AB8012CC45E30073DC72 /* maryland.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5E12CC45E30073DC72 /* maryland.wav */; };
+		76A6AB8112CC45E30073DC72 /* massachusetts.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB5F12CC45E30073DC72 /* massachusetts.wav */; };
+		76A6AB8212CC45E30073DC72 /* michigan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6012CC45E30073DC72 /* michigan.wav */; };
+		76A6AB8312CC45E30073DC72 /* minnesota.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6112CC45E30073DC72 /* minnesota.wav */; };
+		76A6AB8412CC45E30073DC72 /* mississippi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6212CC45E30073DC72 /* mississippi.wav */; };
+		76A6AB8512CC45E30073DC72 /* missouri.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6312CC45E30073DC72 /* missouri.wav */; };
+		76A6AB8612CC45E30073DC72 /* montana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6412CC45E30073DC72 /* montana.wav */; };
+		76A6AB8712CC45E30073DC72 /* nebraska.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6512CC45E30073DC72 /* nebraska.wav */; };
+		76A6AB8812CC45E30073DC72 /* nevada.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6612CC45E30073DC72 /* nevada.wav */; };
+		76A6AB8912CC45E30073DC72 /* newhampshire.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6712CC45E30073DC72 /* newhampshire.wav */; };
+		76A6AB8A12CC45E30073DC72 /* newjersey.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6812CC45E30073DC72 /* newjersey.wav */; };
+		76A6AB8B12CC45E30073DC72 /* newmexico.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6912CC45E30073DC72 /* newmexico.wav */; };
+		76A6AB8C12CC45E30073DC72 /* newyork.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB6A12CC45E30073DC72 /* newyork.wav */; };
+		76A6AB9E12CC45FF0073DC72 /* northcarolina.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB8D12CC45FF0073DC72 /* northcarolina.wav */; };
+		76A6AB9F12CC45FF0073DC72 /* northdakota.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB8E12CC45FF0073DC72 /* northdakota.wav */; };
+		76A6ABA012CC45FF0073DC72 /* ohio.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB8F12CC45FF0073DC72 /* ohio.wav */; };
+		76A6ABA112CC45FF0073DC72 /* oklahoma.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9012CC45FF0073DC72 /* oklahoma.wav */; };
+		76A6ABA212CC45FF0073DC72 /* oregon.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9112CC45FF0073DC72 /* oregon.wav */; };
+		76A6ABA312CC45FF0073DC72 /* pennsylvania.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9212CC45FF0073DC72 /* pennsylvania.wav */; };
+		76A6ABA412CC45FF0073DC72 /* rhodeisland.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9312CC45FF0073DC72 /* rhodeisland.wav */; };
+		76A6ABA512CC45FF0073DC72 /* southcarolina.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9412CC45FF0073DC72 /* southcarolina.wav */; };
+		76A6ABA612CC45FF0073DC72 /* southdakota.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9512CC45FF0073DC72 /* southdakota.wav */; };
+		76A6ABA712CC45FF0073DC72 /* tennessee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9612CC45FF0073DC72 /* tennessee.wav */; };
+		76A6ABA812CC45FF0073DC72 /* texas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9712CC45FF0073DC72 /* texas.wav */; };
+		76A6ABA912CC45FF0073DC72 /* utah.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9812CC45FF0073DC72 /* utah.wav */; };
+		76A6ABAA12CC45FF0073DC72 /* vermont.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9912CC45FF0073DC72 /* vermont.wav */; };
+		76A6ABAB12CC45FF0073DC72 /* virginia.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9A12CC45FF0073DC72 /* virginia.wav */; };
+		76A6ABAC12CC45FF0073DC72 /* westvirginia.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9B12CC45FF0073DC72 /* westvirginia.wav */; };
+		76A6ABAD12CC45FF0073DC72 /* wisconsin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9C12CC45FF0073DC72 /* wisconsin.wav */; };
+		76A6ABAE12CC45FF0073DC72 /* wyoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76A6AB9D12CC45FF0073DC72 /* wyoming.wav */; };
+		76AD9E0212CD9B86000469D5 /* no0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9DFF12CD9B86000469D5 /* no0.wav */; };
+		76AD9E0312CD9B86000469D5 /* no4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9E0012CD9B86000469D5 /* no4.wav */; };
+		76AD9E0412CD9B86000469D5 /* no5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9E0112CD9B86000469D5 /* no5.wav */; };
+		76AD9E0812CD9B9D000469D5 /* yes0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9E0512CD9B9D000469D5 /* yes0.wav */; };
+		76AD9E0912CD9B9D000469D5 /* yes4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76AD9E0612CD9B9D000469D5 /* yes4.wav */; };
+		88399CB912C4112F003AA3B0 /* CongratulationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88399CB712C4112F003AA3B0 /* CongratulationsController.m */; };
+		88399CBA12C4112F003AA3B0 /* CongratulationsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88399CB812C4112F003AA3B0 /* CongratulationsController.xib */; };
+		88715C0B12C182B600EAB36D /* StateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 88715C0A12C182B600EAB36D /* StateList.m */; };
+		8880672D12C26F3F00E7D86C /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8880672C12C26F3F00E7D86C /* SoundManager.m */; };
+		8880673912C26F5300E7D86C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8880673812C26F5300E7D86C /* AudioToolbox.framework */; };
+		88894C3E12C2C85200AC83D8 /* iPhoneMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 88894C3C12C2C85200AC83D8 /* iPhoneMap.m */; };
+		88894C3F12C2C85200AC83D8 /* iPhoneMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88894C3D12C2C85200AC83D8 /* iPhoneMap.xib */; };
+		88894C7D12C3B38A00AC83D8 /* ResultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 88894C7C12C3B38A00AC83D8 /* ResultsManager.m */; };
+		8895A69B12CBEC2C00FFBBF8 /* star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8895A69A12CBEC2C00FFBBF8 /* star.jpg */; };
+		88DE91DF12C11D06008EE168 /* iPadMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DE91DD12C11D06008EE168 /* iPadMap.m */; };
+		88DE91E012C11D06008EE168 /* iPadMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88DE91DE12C11D06008EE168 /* iPadMap.xib */; };
+		88DE928712C12452008EE168 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DE927012C123B4008EE168 /* MapKit.framework */; };
+		88DE933312C1371D008EE168 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DE933212C1371D008EE168 /* MyAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* StateTutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateTutor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Geography_Tutor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geography_Tutor_Prefix.pch; sourceTree = "<group>"; };
+		76336E3F12C1C4F0004ADE96 /* TN_09-10_S_22A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TN_09-10_S_22A.jpg"; path = "Shared/Images/TN_09-10_S_22A.jpg"; sourceTree = "<group>"; };
+		76336E5C12C1C8D9004ADE96 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsController.h; path = Shared/SettingsController.h; sourceTree = "<group>"; };
+		76336E5D12C1C8D9004ADE96 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = Shared/SettingsController.m; sourceTree = "<group>"; };
+		76336E5E12C1C8D9004ADE96 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsController.xib; path = Shared/SettingsController.xib; sourceTree = "<group>"; };
+		76336E6212C1C95C004ADE96 /* backDrop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = backDrop.jpg; path = Shared/Images/backDrop.jpg; sourceTree = "<group>"; };
+		7637366712D8DF840046C14E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7637366812D8DF840046C14E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7637366912D8DF840046C14E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		764B4B2912C6EF040043309F /* yes1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes1.wav; path = Shared/Sounds/yes1.wav; sourceTree = "<group>"; };
+		764B4B4412C6F85D0043309F /* no1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no1.wav; path = Shared/Sounds/no1.wav; sourceTree = "<group>"; };
+		764B4B4512C6F85D0043309F /* no2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no2.wav; path = Shared/Sounds/no2.wav; sourceTree = "<group>"; };
+		764B4B4612C6F85D0043309F /* yes2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes2.wav; path = Shared/Sounds/yes2.wav; sourceTree = "<group>"; };
+		764B4B4712C6F85D0043309F /* yes3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes3.wav; path = Shared/Sounds/yes3.wav; sourceTree = "<group>"; };
+		764B4B4C12C6F9B20043309F /* no3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no3.wav; path = Shared/Sounds/no3.wav; sourceTree = "<group>"; };
+		7688F7AB12CFA2BF00C2413F /* congratulations.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = congratulations.wav; path = Shared/Sounds/congratulations.wav; sourceTree = "<group>"; };
+		7688F8C312CFC1FD00C2413F /* PleaseWait.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = PleaseWait.gif; path = Shared/Images/PleaseWait.gif; sourceTree = "<group>"; };
+		768FD58412D2A0D200582B6B /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = Shared/Images/default.png; sourceTree = "<group>"; };
+		769DD4281336B181000A68FD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		76A40B8912C1B98C005E7874 /* MapUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapUtils.h; sourceTree = "<group>"; };
+		76A40B8A12C1B98C005E7874 /* MapUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapUtils.m; sourceTree = "<group>"; };
+		76A6AB4912CC45E30073DC72 /* alabama.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alabama.wav; path = Shared/Sounds/alabama.wav; sourceTree = "<group>"; };
+		76A6AB4A12CC45E30073DC72 /* alaska.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alaska.wav; path = Shared/Sounds/alaska.wav; sourceTree = "<group>"; };
+		76A6AB4B12CC45E30073DC72 /* arizona.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = arizona.wav; path = Shared/Sounds/arizona.wav; sourceTree = "<group>"; };
+		76A6AB4C12CC45E30073DC72 /* arkansas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = arkansas.wav; path = Shared/Sounds/arkansas.wav; sourceTree = "<group>"; };
+		76A6AB4D12CC45E30073DC72 /* california.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = california.wav; path = Shared/Sounds/california.wav; sourceTree = "<group>"; };
+		76A6AB4E12CC45E30073DC72 /* canyoufind.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = canyoufind.wav; path = Shared/Sounds/canyoufind.wav; sourceTree = "<group>"; };
+		76A6AB4F12CC45E30073DC72 /* colorado.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = colorado.wav; path = Shared/Sounds/colorado.wav; sourceTree = "<group>"; };
+		76A6AB5012CC45E30073DC72 /* connecticut.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = connecticut.wav; path = Shared/Sounds/connecticut.wav; sourceTree = "<group>"; };
+		76A6AB5112CC45E30073DC72 /* delaware.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = delaware.wav; path = Shared/Sounds/delaware.wav; sourceTree = "<group>"; };
+		76A6AB5212CC45E30073DC72 /* districtofcolombia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = districtofcolombia.wav; path = Shared/Sounds/districtofcolombia.wav; sourceTree = "<group>"; };
+		76A6AB5312CC45E30073DC72 /* florida.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = florida.wav; path = Shared/Sounds/florida.wav; sourceTree = "<group>"; };
+		76A6AB5412CC45E30073DC72 /* georgia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = georgia.wav; path = Shared/Sounds/georgia.wav; sourceTree = "<group>"; };
+		76A6AB5512CC45E30073DC72 /* hawaii.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hawaii.wav; path = Shared/Sounds/hawaii.wav; sourceTree = "<group>"; };
+		76A6AB5612CC45E30073DC72 /* idaho.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = idaho.wav; path = Shared/Sounds/idaho.wav; sourceTree = "<group>"; };
+		76A6AB5712CC45E30073DC72 /* illinois.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = illinois.wav; path = Shared/Sounds/illinois.wav; sourceTree = "<group>"; };
+		76A6AB5812CC45E30073DC72 /* indiana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = indiana.wav; path = Shared/Sounds/indiana.wav; sourceTree = "<group>"; };
+		76A6AB5912CC45E30073DC72 /* iowa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = iowa.wav; path = Shared/Sounds/iowa.wav; sourceTree = "<group>"; };
+		76A6AB5A12CC45E30073DC72 /* kansas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kansas.wav; path = Shared/Sounds/kansas.wav; sourceTree = "<group>"; };
+		76A6AB5B12CC45E30073DC72 /* kentucky.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kentucky.wav; path = Shared/Sounds/kentucky.wav; sourceTree = "<group>"; };
+		76A6AB5C12CC45E30073DC72 /* louisiana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = louisiana.wav; path = Shared/Sounds/louisiana.wav; sourceTree = "<group>"; };
+		76A6AB5D12CC45E30073DC72 /* maine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = maine.wav; path = Shared/Sounds/maine.wav; sourceTree = "<group>"; };
+		76A6AB5E12CC45E30073DC72 /* maryland.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = maryland.wav; path = Shared/Sounds/maryland.wav; sourceTree = "<group>"; };
+		76A6AB5F12CC45E30073DC72 /* massachusetts.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = massachusetts.wav; path = Shared/Sounds/massachusetts.wav; sourceTree = "<group>"; };
+		76A6AB6012CC45E30073DC72 /* michigan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = michigan.wav; path = Shared/Sounds/michigan.wav; sourceTree = "<group>"; };
+		76A6AB6112CC45E30073DC72 /* minnesota.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = minnesota.wav; path = Shared/Sounds/minnesota.wav; sourceTree = "<group>"; };
+		76A6AB6212CC45E30073DC72 /* mississippi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mississippi.wav; path = Shared/Sounds/mississippi.wav; sourceTree = "<group>"; };
+		76A6AB6312CC45E30073DC72 /* missouri.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = missouri.wav; path = Shared/Sounds/missouri.wav; sourceTree = "<group>"; };
+		76A6AB6412CC45E30073DC72 /* montana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = montana.wav; path = Shared/Sounds/montana.wav; sourceTree = "<group>"; };
+		76A6AB6512CC45E30073DC72 /* nebraska.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = nebraska.wav; path = Shared/Sounds/nebraska.wav; sourceTree = "<group>"; };
+		76A6AB6612CC45E30073DC72 /* nevada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = nevada.wav; path = Shared/Sounds/nevada.wav; sourceTree = "<group>"; };
+		76A6AB6712CC45E30073DC72 /* newhampshire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = newhampshire.wav; path = Shared/Sounds/newhampshire.wav; sourceTree = "<group>"; };
+		76A6AB6812CC45E30073DC72 /* newjersey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = newjersey.wav; path = Shared/Sounds/newjersey.wav; sourceTree = "<group>"; };
+		76A6AB6912CC45E30073DC72 /* newmexico.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = newmexico.wav; path = Shared/Sounds/newmexico.wav; sourceTree = "<group>"; };
+		76A6AB6A12CC45E30073DC72 /* newyork.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = newyork.wav; path = Shared/Sounds/newyork.wav; sourceTree = "<group>"; };
+		76A6AB8D12CC45FF0073DC72 /* northcarolina.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = northcarolina.wav; path = Shared/Sounds/northcarolina.wav; sourceTree = "<group>"; };
+		76A6AB8E12CC45FF0073DC72 /* northdakota.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = northdakota.wav; path = Shared/Sounds/northdakota.wav; sourceTree = "<group>"; };
+		76A6AB8F12CC45FF0073DC72 /* ohio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ohio.wav; path = Shared/Sounds/ohio.wav; sourceTree = "<group>"; };
+		76A6AB9012CC45FF0073DC72 /* oklahoma.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = oklahoma.wav; path = Shared/Sounds/oklahoma.wav; sourceTree = "<group>"; };
+		76A6AB9112CC45FF0073DC72 /* oregon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = oregon.wav; path = Shared/Sounds/oregon.wav; sourceTree = "<group>"; };
+		76A6AB9212CC45FF0073DC72 /* pennsylvania.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pennsylvania.wav; path = Shared/Sounds/pennsylvania.wav; sourceTree = "<group>"; };
+		76A6AB9312CC45FF0073DC72 /* rhodeisland.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rhodeisland.wav; path = Shared/Sounds/rhodeisland.wav; sourceTree = "<group>"; };
+		76A6AB9412CC45FF0073DC72 /* southcarolina.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = southcarolina.wav; path = Shared/Sounds/southcarolina.wav; sourceTree = "<group>"; };
+		76A6AB9512CC45FF0073DC72 /* southdakota.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = southdakota.wav; path = Shared/Sounds/southdakota.wav; sourceTree = "<group>"; };
+		76A6AB9612CC45FF0073DC72 /* tennessee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tennessee.wav; path = Shared/Sounds/tennessee.wav; sourceTree = "<group>"; };
+		76A6AB9712CC45FF0073DC72 /* texas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = texas.wav; path = Shared/Sounds/texas.wav; sourceTree = "<group>"; };
+		76A6AB9812CC45FF0073DC72 /* utah.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = utah.wav; path = Shared/Sounds/utah.wav; sourceTree = "<group>"; };
+		76A6AB9912CC45FF0073DC72 /* vermont.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = vermont.wav; path = Shared/Sounds/vermont.wav; sourceTree = "<group>"; };
+		76A6AB9A12CC45FF0073DC72 /* virginia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = virginia.wav; path = Shared/Sounds/virginia.wav; sourceTree = "<group>"; };
+		76A6AB9B12CC45FF0073DC72 /* westvirginia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = westvirginia.wav; path = Shared/Sounds/westvirginia.wav; sourceTree = "<group>"; };
+		76A6AB9C12CC45FF0073DC72 /* wisconsin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wisconsin.wav; path = Shared/Sounds/wisconsin.wav; sourceTree = "<group>"; };
+		76A6AB9D12CC45FF0073DC72 /* wyoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wyoming.wav; path = Shared/Sounds/wyoming.wav; sourceTree = "<group>"; };
+		76AD9DFF12CD9B86000469D5 /* no0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no0.wav; path = Shared/Sounds/no0.wav; sourceTree = "<group>"; };
+		76AD9E0012CD9B86000469D5 /* no4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no4.wav; path = Shared/Sounds/no4.wav; sourceTree = "<group>"; };
+		76AD9E0112CD9B86000469D5 /* no5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no5.wav; path = Shared/Sounds/no5.wav; sourceTree = "<group>"; };
+		76AD9E0512CD9B9D000469D5 /* yes0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes0.wav; path = Shared/Sounds/yes0.wav; sourceTree = "<group>"; };
+		76AD9E0612CD9B9D000469D5 /* yes4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes4.wav; path = Shared/Sounds/yes4.wav; sourceTree = "<group>"; };
+		76AD9E0712CD9B9D000469D5 /* yes5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = yes5.wav; path = Shared/Sounds/yes5.wav; sourceTree = "<group>"; };
+		76B292D512D91B5F00304FDC /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		88399CB612C4112F003AA3B0 /* CongratulationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CongratulationsController.h; sourceTree = "<group>"; };
+		88399CB712C4112F003AA3B0 /* CongratulationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CongratulationsController.m; sourceTree = "<group>"; };
+		88399CB812C4112F003AA3B0 /* CongratulationsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CongratulationsController.xib; sourceTree = "<group>"; };
+		88715C0912C182B600EAB36D /* StateList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateList.h; sourceTree = "<group>"; };
+		88715C0A12C182B600EAB36D /* StateList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateList.m; sourceTree = "<group>"; };
+		8880670512C26BF300E7D86C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8880672B12C26F3F00E7D86C /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundManager.h; path = Shared/SoundManager.h; sourceTree = "<group>"; };
+		8880672C12C26F3F00E7D86C /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundManager.m; path = Shared/SoundManager.m; sourceTree = "<group>"; };
+		8880673812C26F5300E7D86C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		88894C3B12C2C85200AC83D8 /* iPhoneMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMap.h; sourceTree = "<group>"; };
+		88894C3C12C2C85200AC83D8 /* iPhoneMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneMap.m; sourceTree = "<group>"; };
+		88894C3D12C2C85200AC83D8 /* iPhoneMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPhoneMap.xib; sourceTree = "<group>"; };
+		88894C7B12C3B38A00AC83D8 /* ResultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultsManager.h; path = Shared/ResultsManager.h; sourceTree = "<group>"; };
+		88894C7C12C3B38A00AC83D8 /* ResultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultsManager.m; path = Shared/ResultsManager.m; sourceTree = "<group>"; };
+		8895A69A12CBEC2C00FFBBF8 /* star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = star.jpg; path = Shared/Images/star.jpg; sourceTree = "<group>"; };
+		88DE91DC12C11D06008EE168 /* iPadMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadMap.h; sourceTree = "<group>"; };
+		88DE91DD12C11D06008EE168 /* iPadMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadMap.m; sourceTree = "<group>"; };
+		88DE91DE12C11D06008EE168 /* iPadMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iPadMap.xib; sourceTree = "<group>"; };
+		88DE927012C123B4008EE168 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		88DE933112C1371D008EE168 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		88DE933212C1371D008EE168 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769DD4291336B181000A68FD /* iAd.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				88DE928712C12452008EE168 /* MapKit.framework in Frameworks */,
+				8880673912C26F5300E7D86C /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* StateTutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+				88894C3B12C2C85200AC83D8 /* iPhoneMap.h */,
+				88894C3C12C2C85200AC83D8 /* iPhoneMap.m */,
+				88894C3D12C2C85200AC83D8 /* iPhoneMap.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+				88DE91DC12C11D06008EE168 /* iPadMap.h */,
+				88DE91DD12C11D06008EE168 /* iPadMap.m */,
+				88DE91DE12C11D06008EE168 /* iPadMap.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				88894B1E12C2A0C700AC83D8 /* Sounds */,
+				76336E3D12C1C49B004ADE96 /* Images */,
+				88DE933112C1371D008EE168 /* MyAnnotation.h */,
+				88DE933212C1371D008EE168 /* MyAnnotation.m */,
+				88715C0912C182B600EAB36D /* StateList.h */,
+				88715C0A12C182B600EAB36D /* StateList.m */,
+				76A40B8912C1B98C005E7874 /* MapUtils.h */,
+				76A40B8A12C1B98C005E7874 /* MapUtils.m */,
+				76336E5C12C1C8D9004ADE96 /* SettingsController.h */,
+				76336E5D12C1C8D9004ADE96 /* SettingsController.m */,
+				76336E5E12C1C8D9004ADE96 /* SettingsController.xib */,
+				8880672B12C26F3F00E7D86C /* SoundManager.h */,
+				8880672C12C26F3F00E7D86C /* SoundManager.m */,
+				88894C7B12C3B38A00AC83D8 /* ResultsManager.h */,
+				88894C7C12C3B38A00AC83D8 /* ResultsManager.m */,
+				88399CB612C4112F003AA3B0 /* CongratulationsController.h */,
+				88399CB712C4112F003AA3B0 /* CongratulationsController.m */,
+				88399CB812C4112F003AA3B0 /* CongratulationsController.xib */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				769DD4281336B181000A68FD /* iAd.framework */,
+				76A3334412D90F9600FFA082 /* Resources */,
+				8880670512C26BF300E7D86C /* Info.plist */,
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				88DE927012C123B4008EE168 /* MapKit.framework */,
+				8880673812C26F5300E7D86C /* AudioToolbox.framework */,
+				76B292D512D91B5F00304FDC /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Geography_Tutor_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76336E3D12C1C49B004ADE96 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				768FD58412D2A0D200582B6B /* default.png */,
+				7688F8C312CFC1FD00C2413F /* PleaseWait.gif */,
+				8895A69A12CBEC2C00FFBBF8 /* star.jpg */,
+				76336E6212C1C95C004ADE96 /* backDrop.jpg */,
+				76336E3F12C1C4F0004ADE96 /* TN_09-10_S_22A.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		76A3334412D90F9600FFA082 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7637366712D8DF840046C14E /* Icon.png */,
+				7637366812D8DF840046C14E /* Icon-72.png */,
+				7637366912D8DF840046C14E /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		88894B1E12C2A0C700AC83D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7688F7AB12CFA2BF00C2413F /* congratulations.wav */,
+				76AD9E0512CD9B9D000469D5 /* yes0.wav */,
+				76AD9E0612CD9B9D000469D5 /* yes4.wav */,
+				76AD9E0712CD9B9D000469D5 /* yes5.wav */,
+				76AD9DFF12CD9B86000469D5 /* no0.wav */,
+				76AD9E0012CD9B86000469D5 /* no4.wav */,
+				76AD9E0112CD9B86000469D5 /* no5.wav */,
+				76A6AB8D12CC45FF0073DC72 /* northcarolina.wav */,
+				76A6AB8E12CC45FF0073DC72 /* northdakota.wav */,
+				76A6AB8F12CC45FF0073DC72 /* ohio.wav */,
+				76A6AB9012CC45FF0073DC72 /* oklahoma.wav */,
+				76A6AB9112CC45FF0073DC72 /* oregon.wav */,
+				76A6AB9212CC45FF0073DC72 /* pennsylvania.wav */,
+				76A6AB9312CC45FF0073DC72 /* rhodeisland.wav */,
+				76A6AB9412CC45FF0073DC72 /* southcarolina.wav */,
+				76A6AB9512CC45FF0073DC72 /* southdakota.wav */,
+				76A6AB9612CC45FF0073DC72 /* tennessee.wav */,
+				76A6AB9712CC45FF0073DC72 /* texas.wav */,
+				76A6AB9812CC45FF0073DC72 /* utah.wav */,
+				76A6AB9912CC45FF0073DC72 /* vermont.wav */,
+				76A6AB9A12CC45FF0073DC72 /* virginia.wav */,
+				76A6AB9B12CC45FF0073DC72 /* westvirginia.wav */,
+				76A6AB9C12CC45FF0073DC72 /* wisconsin.wav */,
+				76A6AB9D12CC45FF0073DC72 /* wyoming.wav */,
+				76A6AB4912CC45E30073DC72 /* alabama.wav */,
+				76A6AB4A12CC45E30073DC72 /* alaska.wav */,
+				76A6AB4B12CC45E30073DC72 /* arizona.wav */,
+				76A6AB4C12CC45E30073DC72 /* arkansas.wav */,
+				76A6AB4D12CC45E30073DC72 /* california.wav */,
+				76A6AB4E12CC45E30073DC72 /* canyoufind.wav */,
+				76A6AB4F12CC45E30073DC72 /* colorado.wav */,
+				76A6AB5012CC45E30073DC72 /* connecticut.wav */,
+				76A6AB5112CC45E30073DC72 /* delaware.wav */,
+				76A6AB5212CC45E30073DC72 /* districtofcolombia.wav */,
+				76A6AB5312CC45E30073DC72 /* florida.wav */,
+				76A6AB5412CC45E30073DC72 /* georgia.wav */,
+				76A6AB5512CC45E30073DC72 /* hawaii.wav */,
+				76A6AB5612CC45E30073DC72 /* idaho.wav */,
+				76A6AB5712CC45E30073DC72 /* illinois.wav */,
+				76A6AB5812CC45E30073DC72 /* indiana.wav */,
+				76A6AB5912CC45E30073DC72 /* iowa.wav */,
+				76A6AB5A12CC45E30073DC72 /* kansas.wav */,
+				76A6AB5B12CC45E30073DC72 /* kentucky.wav */,
+				76A6AB5C12CC45E30073DC72 /* louisiana.wav */,
+				76A6AB5D12CC45E30073DC72 /* maine.wav */,
+				76A6AB5E12CC45E30073DC72 /* maryland.wav */,
+				76A6AB5F12CC45E30073DC72 /* massachusetts.wav */,
+				76A6AB6012CC45E30073DC72 /* michigan.wav */,
+				76A6AB6112CC45E30073DC72 /* minnesota.wav */,
+				76A6AB6212CC45E30073DC72 /* mississippi.wav */,
+				76A6AB6312CC45E30073DC72 /* missouri.wav */,
+				76A6AB6412CC45E30073DC72 /* montana.wav */,
+				76A6AB6512CC45E30073DC72 /* nebraska.wav */,
+				76A6AB6612CC45E30073DC72 /* nevada.wav */,
+				76A6AB6712CC45E30073DC72 /* newhampshire.wav */,
+				76A6AB6812CC45E30073DC72 /* newjersey.wav */,
+				76A6AB6912CC45E30073DC72 /* newmexico.wav */,
+				76A6AB6A12CC45E30073DC72 /* newyork.wav */,
+				764B4B4C12C6F9B20043309F /* no3.wav */,
+				764B4B4412C6F85D0043309F /* no1.wav */,
+				764B4B4512C6F85D0043309F /* no2.wav */,
+				764B4B4612C6F85D0043309F /* yes2.wav */,
+				764B4B4712C6F85D0043309F /* yes3.wav */,
+				764B4B2912C6EF040043309F /* yes1.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* StateTutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "StateTutor" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StateTutor;
+			productName = "Geography Tutor";
+			productReference = 1D6058910D05DD3D006BFB54 /* StateTutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StateTutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* StateTutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				88DE91E012C11D06008EE168 /* iPadMap.xib in Resources */,
+				76336E4012C1C4F0004ADE96 /* TN_09-10_S_22A.jpg in Resources */,
+				76336E6012C1C8D9004ADE96 /* SettingsController.xib in Resources */,
+				76336E6312C1C95C004ADE96 /* backDrop.jpg in Resources */,
+				88894C3F12C2C85200AC83D8 /* iPhoneMap.xib in Resources */,
+				88399CBA12C4112F003AA3B0 /* CongratulationsController.xib in Resources */,
+				764B4B2A12C6EF040043309F /* yes1.wav in Resources */,
+				764B4B4812C6F85D0043309F /* no1.wav in Resources */,
+				764B4B4912C6F85D0043309F /* no2.wav in Resources */,
+				764B4B4A12C6F85D0043309F /* yes2.wav in Resources */,
+				764B4B4B12C6F85D0043309F /* yes3.wav in Resources */,
+				764B4B4D12C6F9B20043309F /* no3.wav in Resources */,
+				8895A69B12CBEC2C00FFBBF8 /* star.jpg in Resources */,
+				76A6AB6B12CC45E30073DC72 /* alabama.wav in Resources */,
+				76A6AB6C12CC45E30073DC72 /* alaska.wav in Resources */,
+				76A6AB6D12CC45E30073DC72 /* arizona.wav in Resources */,
+				76A6AB6E12CC45E30073DC72 /* arkansas.wav in Resources */,
+				76A6AB6F12CC45E30073DC72 /* california.wav in Resources */,
+				76A6AB7012CC45E30073DC72 /* canyoufind.wav in Resources */,
+				76A6AB7112CC45E30073DC72 /* colorado.wav in Resources */,
+				76A6AB7212CC45E30073DC72 /* connecticut.wav in Resources */,
+				76A6AB7312CC45E30073DC72 /* delaware.wav in Resources */,
+				76A6AB7412CC45E30073DC72 /* districtofcolombia.wav in Resources */,
+				76A6AB7512CC45E30073DC72 /* florida.wav in Resources */,
+				76A6AB7612CC45E30073DC72 /* georgia.wav in Resources */,
+				76A6AB7712CC45E30073DC72 /* hawaii.wav in Resources */,
+				76A6AB7812CC45E30073DC72 /* idaho.wav in Resources */,
+				76A6AB7912CC45E30073DC72 /* illinois.wav in Resources */,
+				76A6AB7A12CC45E30073DC72 /* indiana.wav in Resources */,
+				76A6AB7B12CC45E30073DC72 /* iowa.wav in Resources */,
+				76A6AB7C12CC45E30073DC72 /* kansas.wav in Resources */,
+				76A6AB7D12CC45E30073DC72 /* kentucky.wav in Resources */,
+				76A6AB7E12CC45E30073DC72 /* louisiana.wav in Resources */,
+				76A6AB7F12CC45E30073DC72 /* maine.wav in Resources */,
+				76A6AB8012CC45E30073DC72 /* maryland.wav in Resources */,
+				76A6AB8112CC45E30073DC72 /* massachusetts.wav in Resources */,
+				76A6AB8212CC45E30073DC72 /* michigan.wav in Resources */,
+				76A6AB8312CC45E30073DC72 /* minnesota.wav in Resources */,
+				76A6AB8412CC45E30073DC72 /* mississippi.wav in Resources */,
+				76A6AB8512CC45E30073DC72 /* missouri.wav in Resources */,
+				76A6AB8612CC45E30073DC72 /* montana.wav in Resources */,
+				76A6AB8712CC45E30073DC72 /* nebraska.wav in Resources */,
+				76A6AB8812CC45E30073DC72 /* nevada.wav in Resources */,
+				76A6AB8912CC45E30073DC72 /* newhampshire.wav in Resources */,
+				76A6AB8A12CC45E30073DC72 /* newjersey.wav in Resources */,
+				76A6AB8B12CC45E30073DC72 /* newmexico.wav in Resources */,
+				76A6AB8C12CC45E30073DC72 /* newyork.wav in Resources */,
+				76A6AB9E12CC45FF0073DC72 /* northcarolina.wav in Resources */,
+				76A6AB9F12CC45FF0073DC72 /* northdakota.wav in Resources */,
+				76A6ABA012CC45FF0073DC72 /* ohio.wav in Resources */,
+				76A6ABA112CC45FF0073DC72 /* oklahoma.wav in Resources */,
+				76A6ABA212CC45FF0073DC72 /* oregon.wav in Resources */,
+				76A6ABA312CC45FF0073DC72 /* pennsylvania.wav in Resources */,
+				76A6ABA412CC45FF0073DC72 /* rhodeisland.wav in Resources */,
+				76A6ABA512CC45FF0073DC72 /* southcarolina.wav in Resources */,
+				76A6ABA612CC45FF0073DC72 /* southdakota.wav in Resources */,
+				76A6ABA712CC45FF0073DC72 /* tennessee.wav in Resources */,
+				76A6ABA812CC45FF0073DC72 /* texas.wav in Resources */,
+				76A6ABA912CC45FF0073DC72 /* utah.wav in Resources */,
+				76A6ABAA12CC45FF0073DC72 /* vermont.wav in Resources */,
+				76A6ABAB12CC45FF0073DC72 /* virginia.wav in Resources */,
+				76A6ABAC12CC45FF0073DC72 /* westvirginia.wav in Resources */,
+				76A6ABAD12CC45FF0073DC72 /* wisconsin.wav in Resources */,
+				76A6ABAE12CC45FF0073DC72 /* wyoming.wav in Resources */,
+				76AD9E0212CD9B86000469D5 /* no0.wav in Resources */,
+				76AD9E0312CD9B86000469D5 /* no4.wav in Resources */,
+				76AD9E0412CD9B86000469D5 /* no5.wav in Resources */,
+				76AD9E0812CD9B9D000469D5 /* yes0.wav in Resources */,
+				76AD9E0912CD9B9D000469D5 /* yes4.wav in Resources */,
+				7688F7AC12CFA2BF00C2413F /* congratulations.wav in Resources */,
+				7688F8C412CFC1FD00C2413F /* PleaseWait.gif in Resources */,
+				768FD58512D2A0D200582B6B /* default.png in Resources */,
+				769050E012D2D7CB008136D2 /* yes5.wav in Resources */,
+				7637366B12D8DF840046C14E /* Icon-72.png in Resources */,
+				7637366C12D8DF840046C14E /* Icon@2x.png in Resources */,
+				763736AE12D906E70046C14E /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				88DE91DF12C11D06008EE168 /* iPadMap.m in Sources */,
+				88DE933312C1371D008EE168 /* MyAnnotation.m in Sources */,
+				88715C0B12C182B600EAB36D /* StateList.m in Sources */,
+				76A40B8B12C1B98C005E7874 /* MapUtils.m in Sources */,
+				76336E5F12C1C8D9004ADE96 /* SettingsController.m in Sources */,
+				8880672D12C26F3F00E7D86C /* SoundManager.m in Sources */,
+				88894C3E12C2C85200AC83D8 /* iPhoneMap.m in Sources */,
+				88894C7D12C3B38A00AC83D8 /* ResultsManager.m in Sources */,
+				88399CB912C4112F003AA3B0 /* CongratulationsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geography_Tutor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = StateTutor;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geography_Tutor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = StateTutor;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76336E5112C1C742004ADE96 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		76336E5212C1C742004ADE96 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Albert Pascual";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Geography_Tutor_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = StateTutor;
+				PROVISIONING_PROFILE = "03860BD2-20F7-4138-9204-95D167F7B01E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "StateTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				76336E5212C1C742004ADE96 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StateTutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				76336E5112C1C742004ADE96 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
