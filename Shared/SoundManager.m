@@ -57,7 +57,7 @@
 	bPlaying = NO;
 	if (self = [super init])
 	{
-		sndQueue = [[[NSMutableArray alloc] init] retain];
+		sndQueue = [[[[NSMutableArray alloc] init] retain] autorelease];
 	}
 	return self;
 }
@@ -132,7 +132,7 @@ void MyAudioServicesSystemSoundCompletionProc(SystemSoundID ssID, void *clientDa
 			
 		NSLog(@"Playing sound from the queue %@", path);
 			
-		[path release];		
+			
 		
 	}
 	else
@@ -153,7 +153,7 @@ void MyAudioServicesSystemSoundCompletionProc(SystemSoundID ssID, void *clientDa
 {
     [super dealloc];
     
-	[sndQueue release];
+	//[sndQueue release];
 }
 
 @end
