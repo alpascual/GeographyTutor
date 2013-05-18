@@ -15,6 +15,7 @@
 		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		761F4ED6174743F900F0941E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761F4ED5174743F900F0941E /* Default-568h@2x.png */; };
 		76336E4012C1C4F0004ADE96 /* TN_09-10_S_22A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76336E3F12C1C4F0004ADE96 /* TN_09-10_S_22A.jpg */; };
 		76336E5F12C1C8D9004ADE96 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76336E5D12C1C8D9004ADE96 /* SettingsController.m */; };
 		76336E6012C1C8D9004ADE96 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76336E5E12C1C8D9004ADE96 /* SettingsController.xib */; };
@@ -118,6 +119,7 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Geography_Tutor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geography_Tutor_Prefix.pch; sourceTree = "<group>"; };
+		761F4ED5174743F900F0941E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76336E3F12C1C4F0004ADE96 /* TN_09-10_S_22A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "TN_09-10_S_22A.jpg"; path = "Shared/Images/TN_09-10_S_22A.jpg"; sourceTree = "<group>"; };
 		76336E5C12C1C8D9004ADE96 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsController.h; path = Shared/SettingsController.h; sourceTree = "<group>"; };
 		76336E5D12C1C8D9004ADE96 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsController.m; path = Shared/SettingsController.m; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				761F4ED5174743F900F0941E /* Default-568h@2x.png */,
 				769DD4281336B181000A68FD /* iAd.framework */,
 				76A3334412D90F9600FFA082 /* Resources */,
 				8880670512C26BF300E7D86C /* Info.plist */,
@@ -451,6 +454,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "StateTutor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -553,6 +559,7 @@
 				7637366B12D8DF840046C14E /* Icon-72.png in Resources */,
 				7637366C12D8DF840046C14E /* Icon@2x.png in Resources */,
 				763736AE12D906E70046C14E /* Icon.png in Resources */,
+				761F4ED6174743F900F0941E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +638,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -643,7 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Albert Pascual";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -651,7 +657,7 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = StateTutor;
-				PROVISIONING_PROFILE = "03860BD2-20F7-4138-9204-95D167F7B01E";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -667,7 +673,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -684,7 +689,6 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

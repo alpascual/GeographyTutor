@@ -131,7 +131,7 @@ static NSString* const ANNOTATION_SELECTED_DESELECTED = @"mapAnnotationSelectedO
 		[anAnnotationView addObserver:self
 						   forKeyPath:@"selected"
 							  options:NSKeyValueObservingOptionNew
-						      context:ANNOTATION_SELECTED_DESELECTED];
+						      context:(__bridge void *)(ANNOTATION_SELECTED_DESELECTED)];
 	}
 }
 
@@ -145,7 +145,7 @@ static NSString* const ANNOTATION_SELECTED_DESELECTED = @"mapAnnotationSelectedO
 	if ( bDeleting == YES)
 		return;
 	
-    NSString *action = (NSString *)context;
+    NSString *action = (__bridge NSString *)context;
 	if ([action isEqualToString:ANNOTATION_SELECTED_DESELECTED]) {
 		BOOL annotationSelected = [[change valueForKey:@"new"] boolValue];
 		if (annotationSelected) {

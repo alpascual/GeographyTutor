@@ -109,7 +109,7 @@ void MyAudioServicesSystemSoundCompletionProc(SystemSoundID ssID, void *clientDa
 	NSLog(@"Finished playing sounds");
 	//cleanup
 	//AudioServicesDisposeSystemSoundID(ssID);
-	SoundManager *pSoundQueue = clientData;
+	SoundManager *pSoundQueue = (__bridge SoundManager *)(clientData);
 	[pSoundQueue playQueue]; //it crashes here: EXC_BAD_ACCESS
 }
 
